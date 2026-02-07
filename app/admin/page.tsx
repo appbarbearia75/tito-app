@@ -111,13 +111,7 @@ export default function AdminPage() {
                             <BarChart3 className="w-6 h-6 text-[#DBC278]" />
                             <span className="text-xs font-bold text-zinc-300">Analytics</span>
                         </button>
-                        <button
-                            onClick={() => router.push('/admin/marketing')}
-                            className="p-4 bg-[#1c1c1c] rounded-2xl border border-zinc-800 flex flex-col items-center justify-center gap-2 hover:bg-zinc-800 transition-colors"
-                        >
-                            <Share2 className="w-6 h-6 text-[#DBC278]" />
-                            <span className="text-xs font-bold text-zinc-300">Marketing</span>
-                        </button>
+
                         <button className="p-4 bg-[#1c1c1c] rounded-2xl border border-zinc-800 flex flex-col items-center justify-center gap-2 hover:bg-zinc-800 transition-colors opacity-50 cursor-not-allowed">
                             <Users className="w-6 h-6 text-zinc-500" />
                             <span className="text-xs font-bold text-zinc-500">Clientes</span>
